@@ -1,6 +1,10 @@
 package com.txidol.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 
 /**
  * <p>Copyright:Copyright(c)2013</p>
@@ -11,6 +15,9 @@ import org.springframework.stereotype.Controller;
  * @version 1.0
  */
 @Controller
+@RequestMapping("showMessage")
 public class ShowMessageController {
-
+	final static Logger logger = LoggerFactory.getLogger(ShowMessageController.class);
+	
+	
 }
